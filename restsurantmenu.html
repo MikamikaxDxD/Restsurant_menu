@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Spice N Rice Restaurant</title>
+    <style>
+        body{
+            background-color: #fbfbbb;
+            font-family:cursive;
+            margin: 0;
+            padding: 0;
+
+        }
+        hr{
+            
+            border-style:solid;
+           
+        }
+
+        h1{
+            color: #b81a14;
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            color:#1da42c ;
+            
+        }
+       
+        img{
+            border-color: #b81a14;
+            border-radius: 10px;
+            border-width: 10px;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            text-align: center;
+            background-color: #fbfbbb;
+            
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #1da42c;
+        }
+        #menu article {
+            display:inline-block;
+
+            border: 1px solid #adad7e;
+            padding: 20px;
+            margin: 20px 30px 0 30px;
+            width: 300px;
+            box-sizing: border-box;
+        }
+        main {
+            padding: 20px;
+        }
+        #menu{
+            text-align: center;
+        }
+       
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <img
+        src="spicenrice (3).png"
+       height="150px"
+        id="header-img"
+        alt="indian food"
+        /> 
+        <h1>Spice N Rice Restaurant</h1>
+
+       <nav>
+        <ul>
+            <li>
+                <a href="#menu" style="text-decoration:none">Menu    </a>
+            </li>
+            <li>        
+           
+                <a href="#order-form" style="text-decoration:none">Order Form</a>
+            </li>
+        </ul>   
+       </nav>
+    </header>
+    <br>
+    <br>
+    <hr>
+    <main>
+        <section id="menu">
+            <h2>Menu</h2>
+            <article>
+                <h3>Paneer Fried Rice</h3>
+                <img
+                src="https://www.sharmispassions.com/wp-content/uploads/2020/12/14418740439_4a9d73b47b_o-435x500.jpg"
+                width="200px"
+                class="pic"
+
+                />
+                <p>Price- <i><s>Rs.200</s> Rs.150 per plate</i><b> (Offer valid only today)</b><br>A savory, spiced and delicious stir fried rice variant made with soft paneer cubes(Indian Cottage Cheese), long grained rice, healthy veggies, fragrant herbs and spices. </p>
+            </article>
+            <article>
+                <h3>Dal Khichidi</h3>
+                <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/02/khichdi-recipe-1.jpg"
+                width="200px"
+                />
+                <p>Price- <i>Rs.160 per plate</i> <br>Made with a combination of rice and moong dal,it has all spices and flavors in it. Pickle and papad included</p>
+            </article>
+            <article>
+                <h3>Chicken Tikka Biryani</h3>
+                <img
+                src="https://happietrio.com/wp-content/uploads/2019/04/ChickenTikkaBiryani.jpg"
+                width="200px"
+                />
+                <p>Price- <i>Rs.250 per plate</i> <br>Tender chicken is marinated in spiced aromatic yogurt and served with fluffy rice and caramelized onions. Raita and Sherwa included.  </p>
+            </article>
+
+        </section><br>
+        <section id="order-form">
+            <h2>Place Your Order</h2>
+            <form>
+                <h3>Dishes</h3>
+                <label for="pnr">Paneer Fried Rice(Qty):</label>
+                <input type="number" id="pnr" minlength="0"><br><br>
+                <label for="dlk">Dal Khichidi(Qty):</label>
+                <input type="number" id="dlk" minlength="0"><br><br>
+                <label for="ckn">Chicken Tikka Biryani(Qty):</label>
+                <input type="number" id="ckn" minlength="0"><br>
+
+                <h3>Add-ons</h3>
+                <input type="checkbox">Extra pickle
+                <input type="checkbox">Extra raita
+                <input type="checkbox">Extra onion
+                <input type="checkbox">Extra ghee
+               
+                <p><b>Include cutlery</b></p>
+                <input type="radio" name="opt">Yes
+                <input type="radio" name="opt">No
+
+                <label for="txt"><h3>Special Requests:</h3></label>
+                <textarea id="txt" rows="7" cols="45" placeholder="Type something here..."></textarea><br><br>
+                <input type="submit" value="Go To Checkout">
+            </form>
+            <br>
+
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Made with love by bpali19</p>
+    </footer>
+    
+</body>
+</html>
